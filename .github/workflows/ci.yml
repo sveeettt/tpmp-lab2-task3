@@ -1,24 +1,9 @@
-name: C Build CI
-
-on:
-  push:
-    branches: [ main, development ]
-  pull_request:
-    branches: [ main ]
-
+name: CI
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    
-    - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get install -y build-essential
-    
-    - name: Build with Make
-      run: make
-    
-    - name: Run program (optional)
-      run: ./program || echo "Программа завершилась с кодом $?"
+    - uses: actions/checkout@v4
+    - run: make
+

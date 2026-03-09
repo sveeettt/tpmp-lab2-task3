@@ -1,0 +1,12 @@
+bin/
+*.exe
+*.out
+labrabota2-1
+obj/
+*.o
+*.tmp
+*.swp
+*~
+.vscode/
+.DS_Store
+EOF 

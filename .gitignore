@@ -10,3 +10,7 @@ obj/
 .vscode/
 .DS_Store
 EOF 
+program
+src/.main.c.swn
+src/*.swn
+src/*.swp

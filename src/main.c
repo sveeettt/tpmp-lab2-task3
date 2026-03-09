@@ -10,7 +10,7 @@ int main(void) {
     
     
     while (1) {
-        printf("               МЕНЮ                 ║\n");
+        printf("               МЕНЮ                 \n");
         
         printf(" 1. Ввод данных об абонентах       \n");
         printf(" 2. Сортировка по алфавиту         \n");

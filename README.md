@@ -23,6 +23,7 @@
 3.**Очистка собранных файлов:**
     ```bash
     make clean
+    
     ```
     
 ## Additional Notes

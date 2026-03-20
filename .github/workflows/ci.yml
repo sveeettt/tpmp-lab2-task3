@@ -10,4 +10,5 @@ jobs:
       - name: Build with Make
         run: make
       - name: Run the program
-        run: ./program
+        run: | 
+        printf "0\n" | ./program
